@@ -30,6 +30,7 @@ Create a HTML file of forms.
 Publish the website in the given URL.
 
 ## PROGRAM :
+```
 math.html
 
 <html>
@@ -128,6 +129,7 @@ urlpatterns = [
     path('areaofrectangle/',views.rectarea,name="areaofrectangle"),
     path('',views.rectarea,name="areaofrectangleroot")
 ]
+```
 ## OUTPUT:
 ![Screenshot from 2023-04-21 09-27-04](https://user-images.githubusercontent.com/121418444/233676836-d3914191-3194-411e-88b7-fba0d3f95369.png)
 
